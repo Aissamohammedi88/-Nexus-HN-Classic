@@ -16,3 +16,39 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+---
+
+### 📄 `.gitignore`
+
+```gitignore
+# NEXUS HN CLASSIC — .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Logs & Cache
+*.log
+logs/
+.cache/
+hn_cache/
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+.vs/
